@@ -1,6 +1,4 @@
-<h1>Sort()</h1>
-<p>Кто хочет посмореть на код, то он ниже</p>
-<h2>Код</h2>
+<h2>Code</h2>
 <h3>HTML</h3>
 
 ```
@@ -20,20 +18,20 @@
 <h3>JavaScript</h3>
 
 ```
-//создаём массив с именами
-var names = ['Вася', 'Петя', 'Витя', 'Олег', 'Катя', 'Алексей'];
-//создадим массив с численными значениями.
+//create an array with names
+var names = ['Vasya', 'Peter', 'Vitya', 'Oleg', 'Kate', 'Alexei'];
+//let's create an array with numeric values
 var numbers = [12, 653, 213, 65, 34, 912, 54];
 
-//создаём функцию, которая будет сортировать массив.
+//create a function that will sort the array
 function sortName(massive) {
     massive.sort();
     return massive;
 };
 
-//выводим результат в консоль.
+//print the result to the console
 console.log(sortName(names));
-//выводим результат в консоль.
+//print the result to the console
 console.log(sortName(numbers));
-//теперь мы убедились, что у нас всё работает правильно.
+//now we are convinced that everything works for us correctly
 ```
